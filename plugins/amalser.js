@@ -46,7 +46,7 @@ notheri()
 var ldc = ''
 if (Config.LANG == 'AZ') ldc = '*Bağlantı Aşkarlandı!*'
 if (Config.LANG == 'TR') ldc = '*‎Link Tespit Edildi!*'
-if (Config.LANG == 'EN') ldc = '*Dont use badwords....* \n 😅 *Dont share other groups links here....* \n *No warning ⚠️ After kick i will say* 😅😅'
+if (Config.LANG == 'EN') ldc = '*Dont use badwords....* \n 📌 *Dont share other gcs links here....* \n *No warning ⚠️ I'll Just kick as commanded* 📌📌'
 if (Config.LANG == 'ML') ldc = '*ലിങ്ക് കണ്ടെത്തി!*'
 if (Config.LANG == 'ID') ldc = '*Tautan Terdeteksi!*'
 if (Config.LANG == 'PT') ldc = '*Link Detectado!*'
