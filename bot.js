@@ -1,5 +1,4 @@
 /* Copyright (C) 2020 Yusuf Usta.
-
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
 WhatsAsena - Yusuf Usta
@@ -150,8 +149,9 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('Amalser working 💌')
-        );
+            chalk.green.bold('𝙰𝚖𝚊𝚕𝚜𝚎𝚛 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
+            await conn.sendMessage(conn.user.jid, "𝐀𝐦𝐚𝐥𝐬𝐞𝐫 ɪꜱ 𝐚𝐥𝐥 𝐬𝐞𝐭 ✅️", MessageType.text);
+            await conn.sendMessage(conn.user.jid, "``` 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 💌```" , MessageType.text);
     });
     
     conn.on('chat-update', async m => {
@@ -275,8 +275,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ AspirerX ~______~*' +
-                                    '\n*🌀 Join my support group channel otherwiise chance to get erorr*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
+                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UCT7x7a4HJ72bbMNx49Z9DTA*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
