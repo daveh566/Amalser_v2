@@ -25,12 +25,12 @@ Asena.addCommand({pattern: 'clear', fromMe: true, desc: END, dontAddCommandList:
 
     await message.sendMessage('```cleaning chat...```');
     await message.client.modifyChat (message.jid, ChatModification.delete);
-    await message.sendMessage('```🏳 Chat cleared 🏳```');
+    await message.sendMessage('```🏳 Chat cleared by aspirerxbot 🏳```');
 }));
 
 Asena.addCommand({pattern: 'clean ?(.*)', fromMe: true, desc: END, dontAddCommandList: true}, (async (message, match) => {
 
     await message.sendMessage('Chat clearing...');   
     await message.client.modifyChat (match[1] == '' ? message.jid : match [1], ChatModification.delete);
-    await message.sendMessage('🚮 Chat cleared');
+    await message.sendMessage('🚮 Chat cleared by aspirexbot');
 }));
