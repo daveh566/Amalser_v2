@@ -60,7 +60,11 @@
             "required": true,
             "value": "false"
         },
-              "BGM_DURATION": {
+        "TAG_REPLY": {
+            "description": "Enter jid of your number so that you get a audio reply when metioned example - 91xxxxxxxxxx@s.whatsapp.net - for india",
+            "required": false          
+        },
+        "BGM_DURATION": {
             "description": "FUNY BGM DURATION  codded by SAIDALI",
             "required": false,
             "value": "39999600"
@@ -69,6 +73,10 @@
             "description": " Set true for auto date, time in biography.",
             "required": true,
             "value": "false"
+        },
+        "NUMBER": {
+            "description": "give your orginal phone number if you wish to add it in .number cmnd ",
+            "required": false
         },
         "HANDLERS": {
             "description": "For commands.",
@@ -152,6 +160,11 @@
             "description": "Debugging",
             "required": true,
             "value": "false"
+        },
+        "OWNER_NAME": {
+            "description": "reply for .owner ! give your details, Use => default, to change back.",
+            "required": false,
+            "value": "default"
         },
         "REMOVE_BG_API_KEY": {
             "description": "https://remove.bg",
