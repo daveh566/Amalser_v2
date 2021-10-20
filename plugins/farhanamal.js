@@ -31,7 +31,7 @@ Neotro.addCommand({pattern: 'help', fromMe: false, dontAddCommandList: true}, (a
        const sections = [{title: "AspirerX ❤️", rows: rows}]
        
        const button = {
-        buttonText: '𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘',
+        buttonText: 'CLICK HERE',
         description: "ASPIRERX BOT🔰",
         sections: sections,
         listType: 1
