@@ -11,7 +11,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://i.imgur.com/w89FHm7.jpeg";
+  r_text[0] = "https://telegra.ph/file/1f40c8fab2450d5279858.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -25,7 +25,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *Deploy your own AspirerX: _________(password on this video watch it full)*
 
-*Support group : https://github.com/cyberchekuthan/Amalser_v2*
+*Support group : https://t.me/KayAspirerProject*
 
 *Hosted  : Heroku.com*
 `}) 
