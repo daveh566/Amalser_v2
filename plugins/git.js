@@ -21,13 +21,13 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Amal*
 *To check update .update   To update Bot .update now*
 
-*Bot making video : https://youtu.be/fd0KPblop-k*
+*Bot created by : https://t.me/aspirer2*
 
-*Yt_PASSWORD: _________(password on this video watch it full)*
+*Deploy your own AspirerX: _________(password on this video watch it full)*
 
-*githublink : https://github.com/cyberchekuthan/Amalser_v2*
+*Support group : https://github.com/cyberchekuthan/Amalser_v2*
 
-*audio commads : https://github.com/cyberchekuthan/Amalser_v2/tree/master/uploads*
+*Hosted  : Heroku.com*
 `}) 
 
 }));
