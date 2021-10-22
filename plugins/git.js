@@ -23,7 +23,7 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *Bot created by : https://t.me/aspirer2*
 
-*Deploy your own AspirerX: _________(password on this video watch it full)*
+*Deploy your own AspirerX:https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fdaveh566%2Fwhatxx&template=https%3A%2F%2Fgithub.com%2Fdaveh566%2Fwhatxx*
 
 *Support group : https://t.me/KayAspirerProject*
 
