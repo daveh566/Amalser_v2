@@ -10,7 +10,7 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
-Amalser.addCommand({pattern: 'look', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Amalser.addCommand({pattern: 'help', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
@@ -127,12 +127,12 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.jpg, contextInfo: {mentionedJid: message.mention}, caption: `╭──────────────────╮
    ` + config.BOT + `
-╭────────────────ASPIRERXBOT 2021───────────────
+╭──────────────────╯
 │
 │ ʜᴇʏ ᴜsᴇʀ ` + wish + `
 │         *⌚` + time + `*
 │
-┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : Aspirer
+┣𝕾⃝🌺 *ᴅᴇᴠᴇʟᴏʟᴇʀ* : *ASPIRER*
 ┣𝕾⃝🌺 *Antilink* : ` + antilink + `
 ┣𝕾⃝🌺 *ғᴜʟʟ ᴇᴠᴀ* : ` + pinky + `
 ┣𝕾⃝🌺 *ᴀᴜᴛᴏ ʙɪᴏ* : ` + auto_bio + `
@@ -220,10 +220,10 @@ if (config.ANTİLİNK == 'false') antilink = 'Off'
 ┣𝕾⃝🌺 .ᴜɴᴍᴜᴛᴇ
 ┣𝕾⃝🌺 .ɪɴᴠɪᴛᴇ
 ┣𝕾⃝🌺 .sᴇᴛᴠᴀʀ
-│𝕾⃝🌺 . OWNER: *wa.me/254793786794* 
-│SUPPORT GROUP : *https:t.me/kayaspirerproject*
-│   ❏ASPIRERX BOT❏
-╰─────────────────────────────────────────────
+│ 
+│
+│  ASPIRERX BOT2021
+╰──────────────────╯
 `}) 
 
 }));
