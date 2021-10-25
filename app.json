@@ -1,15 +1,15 @@
 {
-    "name": "AspirerX ",
-    "description": "AspirerX is the Modified WhatsApp bot created by Aspirer.",
-    "logo": "https://telegra.ph/file/1f40c8fab2450d5279858.jpg",
+    "name": "Amalser_v2 ",
+    "description": "Amalser_v2 is the Modified Version of WhatsAsena, Made By @farhan-dqz with Baileys.",
+    "logo": "https://i.imgur.com/yCYYyEJ.jpeg",
     "keywords": ["whatsapp", "userbot", "julie", "WhatsAsena", "mwol", "bot", "ai"],
     "repository": "https://github.com/cyberchekuthan/Amalser_v2",
     "website":   "https://github.com/farhan-dqz/Julie-Mwol",
     "success_url": "https://github.com/farhan-dqz/Julie-Mwol",
     "stack": "container",
     "env": {
-        "JULIE_SESSION": {
-            "description": "Join https://t.me/KayAspirerProject to get  Session.",
+        "AMALSER_CODE": {
+            "description": "Type the code when you got by scanning QR through WhatsApp.",
             "required": true
         },
         "SUDO": {
@@ -90,8 +90,8 @@
         },
         "NO_LOG": {
             "description": " Set true if you don't want to see error log.",
-            "required": true,
-            "value": "false"
+            "required": false,
+            "value": "true"
         },
         "SEND_READ": {
             "description": "Write true if you want to throw seen.",
