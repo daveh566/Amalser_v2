@@ -150,7 +150,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
 
         console.log(
             chalk.green.bold('𝙰𝚖𝚊𝚕𝚜𝚎𝚛 𝚠𝚘𝚛𝚔𝚒𝚗𝚐 ' + config.WORKTYPE + ' 𝚗𝚘𝚠 🍃'));
-            await conn.sendMessage(conn.user.jid, "ASPIRERX BOT SET ✅️", MessageType.text);
+            await conn.sendMessage(conn.user.jid, "𝐀𝐦𝐚𝐥𝐬𝐞𝐫 ɪꜱ 𝐚𝐥𝐥 𝐬𝐞𝐭 ✅️", MessageType.text);
             await conn.sendMessage(conn.user.jid, "``` 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 💌```" , MessageType.text);
     });
     //Thanks to souravkl11
@@ -158,15 +158,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
          
-        while (getGMTh == 19 && getGMTm == 1) {
+        while (getGMTh == 16 && getGMTm == 15) {
             const {data} = await axios(`https://gist.github.com/cyberchekuthan/990794cbe26dd78db7e68c0d364a5c8c/raw`)
             const { sken, skml } = data
                         
             var announce = ''
-            if (config.LANG == 'EN') announce = `${sken}`
-            if (config.LANG == 'ML') announce = `${skml}`
+            if (config.LANG == 'EN') announce = sken
+            if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '[ DAILY ANNOUNCEMENTS ]\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS ]*\n\n' + announce, MessageType.text);
         }
     }, 50000);
 
@@ -293,8 +293,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
-                                    '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UCT7x7a4HJ72bbMNx49Z9DTA*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Aspirerx ~______~*' +
+                                    '\n*🌀 Join this group otherwise chance to get erorr: https://t.me/kayaspirerproject*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
                             }
