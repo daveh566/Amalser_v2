@@ -8,7 +8,9 @@
             "EXAMPLE": "Eg:- ",
             "NOT_FOUND": "*I couldnt find a command like this*",
             "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
-            "WARN": "Warn"
+            "WARN": "Warn",
+            "REVOKED": "```Group link revoked!```",
+            "REVOKE_DESC": "```Revokes group link```"
             
         },
         "_plugin": {
@@ -189,6 +191,7 @@
             "INVALID_CURRENCY": "```Foreign currency transaction failed. You wrote wrong currency!```",
             "UNKNOWN_ERROR": "```An error occurred. Foreign currency transaction failed!```",
             "TTS_DESC": "It converts text to sound.",
+            "NUMBER": "get the original number of creator",
             "TTS_ERROR": "```Error, Speech example of your sentence couldn't be made!```",
             "SONG_DESC": "Uploads the song you wrote.",
             "ISONG_DESC": "Uploads the song you wrote for ios users.",
